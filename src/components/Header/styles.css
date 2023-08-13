@@ -1,0 +1,52 @@
+.container {
+  flex: 1;
+  height: 160px;
+  display: flex;
+  padding: 10px 50px;
+  padding-top: 20px;
+  flex-direction: column;
+  background-color: #8A19D6;
+}
+.content {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.userPhoto {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  background-color: #A63EED;
+}
+.userPhotoDefault {
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 100px;
+  background-color: #A63EED;
+}
+.icon {
+  width: 32px;
+  height: 32px;
+}
+.menu {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.title {
+  color: #fff;
+  font-size: 18px;
+  align-self: flex-start;
+}
+
+.teste {
+  width: 50px;
+  height: 50px;
+  background-color: #f00;
+  display: flex;
+  position: absolute;
+}
